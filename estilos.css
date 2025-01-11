@@ -10,7 +10,7 @@ p{
 h3{
     font-family: 'Courier New', Courier, monospace;
 }
-#cuerpo-principal{
+body{
     background-color: beige;
     display: flex;
   flex-direction: column; /* Apila los elementos verticalmente */
