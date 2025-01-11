@@ -1,14 +1,12 @@
 h1{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 40px 40px;
-    margin: 10px 50px 40px;
+    margin: 0;
     text-align: center;
 }
 p{
     background-color: beige;
     margin: 50px 50px;
-    text-align: center;
 }
 h3{
     font-family: 'Courier New', Courier, monospace;
