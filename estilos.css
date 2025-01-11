@@ -5,13 +5,13 @@ h1{
     text-align: center;
 }
 p{
-    background-color: beige;
     margin: 50px 50px;
 }
 h3{
     font-family: 'Courier New', Courier, monospace;
 }
 body{
+    background-color: beige;
     display: flex;
   flex-direction: column; /* Apila los elementos verticalmente */
   align-items: center; /* Centra horizontalmente */
@@ -19,5 +19,4 @@ body{
   min-height: 100vh; /* Hace que ocupe toda la pantalla */
   margin: 0;
   text-align: center;
-  background-color: beige;
 }
