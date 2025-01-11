@@ -1,8 +1,8 @@
 h1{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 30px;
-    margin: auto 50px;
+    border: 40px 40px;
+    margin: 10px 50px 40px;
     text-align: center;
 }
 p{
