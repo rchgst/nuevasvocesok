@@ -1,34 +1,52 @@
-h1{
+h1 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     text-align: center;
 }
-p{
+
+p {
     margin: 50px 50px;
 }
-h3{
+
+h3 {
     font-family: 'Courier New', Courier, monospace;
 }
-body{
+
+.tarjeta {
+    position: fixed;
+    /* Fija la tarjeta en la ventana */
+    bottom: 0;
+    /* Colócala en la parte inferior */
+    left: 0;
+    /* Alineada a la izquierda (o usa right: 0 para la derecha) */
+    width: 100%;
+    /* Asegúrate de que ocupe todo el ancho si quieres que sea horizontal */
+    text-align: center;
+    /* Centra el texto dentro de la tarjeta */
+    background-color: #f9f9f9;
+    /* Color de fondo (opcional) */
+    padding: 10px;
+    /* Espaciado interno */
+    border-top: 2px solid #ccc;
+    /* Línea superior (opcional) */
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra superior para destacar */
+    z-index: 10;
+    /* Asegúrate de que quede encima de otros elementos */
+}
+
+body {
     background-color: beige;
     display: flex;
-  flex-direction: column; /* Apila los elementos verticalmente */
-  align-items: center; /* Centra horizontalmente */
-  justify-content: center; /* Centra verticalmente */
-  min-height: 100vh; /* Hace que ocupe toda la pantalla */
-  margin: 0;
-  text-align: center;
+    flex-direction: column;
+    /* Apila los elementos verticalmente */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: center;
+    /* Centra verticalmente */
+    min-height: 100vh;
+    /* Hace que ocupe toda la pantalla */
+    margin: 0;
+    text-align: center;
 }
-.tarjeta {
-    position: fixed; /* Fija la tarjeta en la ventana */
-    bottom: 0; /* Colócala en la parte inferior */
-    left: 0; /* Alineada a la izquierda (o usa right: 0 para la derecha) */
-    width: 100%; /* Asegúrate de que ocupe todo el ancho si quieres que sea horizontal */
-    text-align: center; /* Centra el texto dentro de la tarjeta */
-    background-color: #f9f9f9; /* Color de fondo (opcional) */
-    padding: 10px; /* Espaciado interno */
-    border-top: 2px solid #ccc; /* Línea superior (opcional) */
-    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1); /* Sombra superior para destacar */
-    z-index: 10; /* Asegúrate de que quede encima de otros elementos */
-  }
