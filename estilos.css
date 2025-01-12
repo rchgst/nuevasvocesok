@@ -27,7 +27,8 @@ body {
     /* Apila los elementos verticalmente */
     align-items: center;
     /* Centra horizontalmente */
-    /*justify-content: center; */
+    justify-content: center;
+    /* Centra verticalmente */
     min-height: 100vh;
     /* Hace que ocupe toda la pantalla */
     margin: 0;
