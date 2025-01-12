@@ -44,7 +44,7 @@ h3 {
 }
 body {
     position: relative;
-    right: 30px;
+    right: 200px;
     background-color: beige;
     display: flex;
     flex-direction: column;
