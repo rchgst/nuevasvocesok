@@ -43,8 +43,7 @@ h3 {
     z-index: 10;
 }
 body {
-    position: relative;
-    right: 70px;
+    float: right;
     background-color: beige;
     display: flex;
     flex-direction: column;
